@@ -1,0 +1,7 @@
+name: debug log
+on: [push]
+jobs:
+  logs:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "::debug::hello world"
